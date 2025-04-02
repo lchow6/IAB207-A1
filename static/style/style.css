@@ -1,0 +1,104 @@
+:root {
+  --bs-body-font-family: "Bebas Neue", sans-serif; /* Change to your preferred font */
+}
+
+.btn-login {
+    background-color: #0036ca;
+    color: #ffffff;
+    border-color:none;
+    height: 50px;
+    width: 110px;
+  }
+
+  .btn-signup {
+    background-color: #000000;
+    color: #ffffff;
+    border-color:none;
+    height: 50px;
+    width: 110px;
+  }
+
+  .navbar-brand {
+    color: white; /* Makes the text white */
+    font-size: 1.5rem; /* Adjusts the font size */
+}
+.navbar-nav .nav-link {
+  color: white !important; /* Sets the text color to white */
+  font-size: 1.2rem !important; /* Sets the font size */
+}
+
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%; 
+    padding-left: 20px;
+  }
+
+/*  .carousel {
+    max-width: 1600px;
+    height: 500px; 
+    margin: auto;
+} */
+
+
+/* .carousel-item img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+} */
+
+.btn-createevent{
+  background-color: #ffffff;
+  color: #2600ff;
+  border-color:none;
+  height: 50px;
+  width: 110px;
+}
+
+main {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 15px #000000; /* Enhanced shadow on hover */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Adjust title size */
+}
+
+.card-text {
+  font-size: 0.9rem; /* Adjust description size */
+}
+
+/* Hero Section Styling */
+.hero-section {
+  background-image: url('../../img/background.jpg'); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* White text for contrast */
+  text-shadow: 2px 2px 4px #000000; /* Adds a shadow for better readability */
+}
+
+/* Responsive Text Styling */
+.hero-section h1 {
+  font-size: 3rem; /* Adjust font size for modern look */
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-top: 1.6rem;
+}
