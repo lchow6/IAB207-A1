@@ -23,8 +23,8 @@
     font-size: 1.5rem; /* Adjusts the font size */
 }
 .navbar-nav .nav-link {
-  color: white !important; /* Sets the text color to white */
-  font-size: 1.2rem !important; /* Sets the font size */
+  color: white ; /* Sets the text color to white */
+  font-size: 1.2rem; /* Sets the font size */
 }
 
   .search-container {
@@ -33,19 +33,6 @@
     width: 100%; 
     padding-left: 20px;
   }
-
-/*  .carousel {
-    max-width: 1600px;
-    height: 500px; 
-    margin: auto;
-} */
-
-
-/* .carousel-item img {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
-} */
 
 .btn-createevent{
   background-color: #ffffff;
@@ -101,4 +88,24 @@ main {
 .hero-section p {
   font-size: 1.25rem;
   margin-top: 1.6rem;
+}
+
+/* Form Customization */
+.create-event-container {
+  width: 900px; /* Set a fixed width for the form container */
+  margin: 20px; /* Center the form container */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px #000000; /* Subtle shadow for depth */
+  float: left;
+}
+
+.form-control:focus {
+  border-color: #17a5d5; /* Highlight border on focus */
+  box-shadow: 0 0 5px #17a5d5; /* Add glow effect */
+}
+
+.row.g-3 {
+  gap: 20px; /* Add gap between columns in the row */
 }
