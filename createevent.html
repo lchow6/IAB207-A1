@@ -61,58 +61,90 @@
 
   <body>
     <main>
-      <div class="container create-event-container mt-5">
-        <!-- Event Name -->
-        <div class="row mb-3">
-          <div class="col-sm-4 col-md-4">
-            <label for="exampleFormControlInput1" class="form-label">Event Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name of the event">
+
+      <div class="container mt-4">
+        <div class="row mb-2">
+          <div class="col-12 createevent-back-button-container">
+            <button type="button" class="btn btn-primary">Back</button>
           </div>
         </div>
-
-        <!-- Event Description -->
-        <div class="row mb-3">
-          <div class="col-sm-4 col-md-6">
-            <label for="exampleFormControlTextarea1" class="form-label">Event Description</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      
+        <div class="row">
+          <!-- Form Container -->
+          <div class="col-md-5">
+            <div class="create-event-container">
+              <!-- Event Name -->
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Event Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name of the event">
+              </div>
+      
+              <!-- Event Description -->
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Event Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+      
+              <!-- Event Type -->
+              <div class="mb-3">
+                <label for="eventType" class="form-label">Event Type</label>
+                <select class="form-select" id="eventType">
+                  <option selected>Choose event type</option>
+                  <option value="Seminar">Seminar</option>
+                  <option value="Conference">Conference</option>
+                  <option value="Webinar">Webinar</option>
+                  <option value="Networking">Networking</option>
+                </select>
+              </div>
+      
+              <!-- Check-In and Check-Out Dates -->
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label for="checkInDate" class="form-label">Check-In Date</label>
+                  <input type="date" class="form-control" id="checkInDate">
+                </div>
+                <div class="col-md-4">
+                  <label for="checkInTime" class="form-label">Check-In Time</label>
+                  <input type="time" class="form-control" id="checkInTime">
+                </div>
+                <div class="col-md-6">
+                  <label for="checkOutDate" class="form-label">Check-Out Date</label>
+                  <input type="date" class="form-control" id="checkOutDate">
+                </div>
+              </div>
+      
+              <!-- File Upload -->
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Upload files</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <!-- Event Type -->
-        <div class="row mb-3">
-          <div class="col-sm-4 col-md-6">
-            <label for="eventType" class="form-label">Event Type</label>
-            <select class="form-select" id="eventType">
-              <option selected>Choose event type</option>
-              <option value="Seminar">Seminar</option>
-              <option value="Conference">Conference</option>
-              <option value="Webinar">Webinar</option>
-              <option value="Networking">Networking</option>
-            </select>
-          </div>
-        </div>
-
-        <!-- Check-In and Check-Out Dates -->
-        <div class="row g-3">
-          <div class="col-sm-4 col-md-5">
-            <label for="checkInDate" class="form-label">Check-In Date</label>
-            <input type="date" class="form-control" id="checkInDate">
-          </div>
-          <div class="col-sm-4 col-md-5">
-            <label for="checkOutDate" class="form-label">Check-Out Date</label>
-            <input type="date" class="form-control" id="checkOutDate">
-          </div>
-        </div>
-
-        <!-- File Upload -->
-        <div class="row mt-3">
-          <div class="col-sm-4 col-md-6">
-            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-            <input class="form-control" type="file" id="formFileMultiple" multiple>
+      
+          <!-- Card Container -->
+          <div class="col-md-7">
+            <div class="createevent-card-container">
+              <div class="card">
+                <img src="../n12065765/img/business_test.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6>
+                    Event Name: <span class="fw-bold">Big Meet Conventions</span>
+                  </h6>                  
+                  <p class="card-text">Join us for an evening of meeting new industry professionals.</p>
+                  <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 11:00 AM</p>
+                  <p class="card-text">
+                    <strong>Status:</strong> <span class="badge bg-danger">CANCELLED</span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
 
       
+
+
     </main>
   </body>

@@ -92,20 +92,24 @@ main {
 
 /* Form Customization */
 .create-event-container {
-  width: 900px; /* Set a fixed width for the form container */
-  margin: 20px; /* Center the form container */
+  background-color: #f9f9f9;
+  border-radius: 10px;
   padding: 20px;
-  background-color: #f9f9f9; /* Light background for contrast */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 2px 4px #000000; /* Subtle shadow for depth */
-  float: left;
+  box-shadow: 0 2px 4px #00000020;
+}
+
+.createevent-card-container {
+  padding: 10px;
+  max-width: 500px;
+  height: auto;
 }
 
 .form-control:focus {
-  border-color: #17a5d5; /* Highlight border on focus */
-  box-shadow: 0 0 5px #17a5d5; /* Add glow effect */
+  border-color: #17a5d5;
+  box-shadow: 0 0 5px #17a5d5;
 }
 
+
 .row.g-3 {
-  gap: 20px; /* Add gap between columns in the row */
+  gap: 20px;
 }
