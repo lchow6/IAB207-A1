@@ -109,7 +109,10 @@ main {
   box-shadow: 0 0 5px #17a5d5;
 }
 
-
 .row.g-3 {
   gap: 20px;
+}
+
+.status-label {
+  margin-left: 70px; /* Adjust the value to move it slightly to the right */
 }
