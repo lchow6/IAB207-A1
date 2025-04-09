@@ -116,3 +116,26 @@ main {
 .status-label {
   margin-left: 70px; /* Adjust the value to move it slightly to the right */
 }
+
+
+/*current event cards*/
+.currentevent-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Space between cards */
+  padding: 10px; /* Padding around the container */
+  
+}
+
+/*past event cards*/
+.pastevent-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Space between cards */
+  padding: 10px; /* Padding around the container */
+  
+}
