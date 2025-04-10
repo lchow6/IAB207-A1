@@ -98,16 +98,6 @@ main {
   box-shadow: 0 2px 4px #00000020;
 }
 
-.createevent-card-container {
-  padding: 10px;
-  max-width: 500px;
-  height: auto;
-}
-
-.form-control:focus {
-  border-color: #17a5d5;
-  box-shadow: 0 0 5px #17a5d5;
-}
 
 .row.g-3 {
   gap: 20px;
@@ -139,3 +129,85 @@ main {
   padding: 10px; /* Padding around the container */
   
 }
+
+/* Warning badge*/
+.badge.bg-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+
+.card {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 16px;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.card-title {
+  font-family: 'Poppins', sans-serif;
+}
+.btn-primary {
+  background-color: #4b0082;
+  border: none;
+  font-weight: bold
+}
+
+.card-img-top {
+  width: 100%; /* Ensures the image spans the full width of the card */
+  height: 200px; /* Set a fixed height for the image */
+  object-fit:contain; /* Ensures the image scales and crops proportionally to fit the dimensions */
+}
+
+
+/* EVENT FORM*/
+/* Event Form Container */
+.create-event-container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Input and Textarea Styling */
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+
+  /* form Labels */
+.form-label {
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Dropdown Styles */
+.dropdown-toggle {
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.dropdown-menu {
+  border-radius: 6px;
+  box-shadow: 0 8px 16px #000000;
+}
+
+/* Dropdown Item config */
+.dropdown-item {
+  font-size: 14px;
+  padding: 10px;
+}
+
+/* File Upload */
+.form-control[type="file"] {
+  padding: 5px;
+}
+
+
+/* VIEW EVENT SECTION */
+
+
+

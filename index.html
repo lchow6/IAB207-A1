@@ -36,17 +36,15 @@
               Others
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="eventhistory.html">Booking History</a></li>
             </ul>
           </li>
         </ul>
 
         <div class="d-flex">
-          <button type="button" class="btn btn-outline-light me-2">Create Event</button>
-          
+          <a href="createevent.html">
+            <button type="button" class="btn btn-outline-light me-2">Create Event</button>
+          </a>
           <button type="button" class="btn btn-outline-light me-2">Login</button>
           <button type="button" class="btn btn-primary">Sign Up</button>
         </div>
@@ -130,7 +128,7 @@
       </div>
     </div>
 
-      <!-- Event Cards -->
+    <!-- Event Cards (Upcoming Events) -->
     <div class="container py-5">
       <h2 class="text-left fw-bold mb-4">Upcoming Events</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
@@ -145,32 +143,12 @@
               <p class="card-text">
                 <strong>Status:</strong> <span class="badge bg-success">OPEN</span>
               </p>
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Learn More
-              </button>
+              <!-- Button for other sheningans idk -->
+              <button type="button" class="btn btn-primary" href="/createevent.html">Get Tickets</button>
             </div>
           </div>
         </div>
 
-        <!-- Modal Trigger -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Big Meet Conventions</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                Join us for an evening of meeting new industry professionals. This event will provide opportunities to network and learn from experts in the field.
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
-            </div>
-          </div>
-        </div>
     
         <div class="col">
           <div class="card shadow-sm border-0">
@@ -182,9 +160,7 @@
               <p class="card-text">
                 <strong>Status:</strong> <span class="badge bg-danger">CANCELLED</span>
               </p>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Learn More
-              </button>
+              <button type="button" class="btn btn-primary" disabled >Get Tickets</button>
             </div>
           </div>
         </div>
@@ -199,9 +175,7 @@
               <p class="card-text">
                 <strong>Status:</strong> <span class="badge bg-secondary">INACTIVE</span>
               </p>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Learn More
-              </button>
+              <button type="button" class="btn btn-primary">Get Tickets</button>
             </div>
           </div>
         </div>
@@ -216,19 +190,180 @@
               <p class="card-text">
                 <strong>Status:</strong> <span class="badge bg-warning">SOLD OUT</span>
               </p>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Learn More
-              </button>
+              <button type="button" class="btn btn-primary">Get Tickets</button>
             </div>
           </div>
         </div>
-    
       </div>
+    </div>
 
+      <!-- Event Cards (Changeable Cateogrize Events) -->
+        <div class="container py-5">
+          <div class="d-flex align-items-center gap-3 mb-4">
+            <h2 class="text-left fw-bold mb-0">I want to see Event Type:</h2>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Networking
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Conference</a></li>
+                <li><a class="dropdown-item" href="#">Seminar</a></li>
+                <li><a class="dropdown-item" href="#">Board Meetings</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+            <div class="col">
+              <div class="card shadow-sm border-0">
+                <img src="img/business_test.jpg" class="card-img-top" alt="Event Image">
+                <div class="card-body text-start">
+                  <h5 class="card-title fw-bold">Big Meet Conventions</h5>
+                  <p class="card-text">Join us for an evening of meeting new industry professionals.</p>
+                  <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 11:00 AM</p>
+                  <p class="card-text">
+                    <strong>Status:</strong> <span class="badge bg-success">OPEN</span>
+                  </p>
+                  <!-- Button -->
+                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                </div>
+              </div>
+            </div>
+    
+        
+            <div class="col">
+              <div class="card shadow-sm border-0">
+                <img src="img/dxcnetowrkingimg.jpg" class="card-img-top" alt="Event Image">
+                <div class="card-body text-start">
+                  <h5 class="card-title fw-bold">DXC Tech Networking</h5>
+                  <p class="card-text">Join us for for a advanced netowrking with high-end career profeesionals.</p>
+                  <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 15:00 PM</p>
+                  <p class="card-text">
+                    <strong>Status:</strong> <span class="badge bg-success">OPEN</span>
+                  </p>
+                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col">
+              <div class="card shadow-sm border-0">
+                <img src="img/ziasnblou.jpg" class="card-img-top" alt="Event Image">
+                <div class="card-body text-start">
+                  <h5 class="card-title fw-bold">Hood Research Department</h5>
+                  <p class="card-text">Expand your knowledge and Netowrk with the socrates and plato of today.</p>
+                  <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 11:00 AM</p>
+                  <p class="card-text">
+                    <strong>Status:</strong> <span class="badge bg-secondary">INACTIVE</span>
+                  </p>
+                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col">
+              <div class="card shadow-sm border-0">
+                <img src="img/azuresky.png" class="card-img-top" alt="Event Image">
+                <div class="card-body text-start">
+                  <h5 class="card-title fw-bold">Azure Sky Networking Event</h5>
+                  <p class="card-text">Connect with industry leaders at Azure Skys networking this afternoon</p>
+                  <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 11:00 AM</p>
+                  <p class="card-text">
+                    <strong>Status:</strong> <span class="badge bg-warning">SOLD OUT</span>
+                  </p>
+                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     
 
 
   </main>
 
 </body>
+
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #17a5d5">
+    <div class="container">
+      <section class="mt-5">
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">About us</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Products</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Awards</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Help</a>
+            </h6>
+          </div>
+
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Contact</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+      <hr class="my-5" />
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              Making your corporate events smoother, smarter, and more successful — every step of the way.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="text-center mb-5">
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: #17a5d5"
+         >
+      © 2025 Copyright:
+      <a class="text-white" href="https://www.linkedin.com/in/labibchowdhury/"
+         >CoporateEvents</a
+        >
+    </div>
+  </footer>
+
+
 </html>
