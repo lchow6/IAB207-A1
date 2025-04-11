@@ -256,3 +256,8 @@ main {
   object-fit: fill;             /* Ensures the image covers the circle nicely */
 }
 
+
+.username-comment {
+  width: 300px; /* Set the desired width for the username form */
+  max-width: 100%; /* Ensures it remains responsive */
+}

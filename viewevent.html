@@ -61,121 +61,133 @@
     <main>
 
       <div class="container mt-5">
-        <div class="row">
+        <div class="row g-4">
           <!-- View Event Container -->
-          <div class="col-md-8 viewevent-container-card">
-            <h1>Big Meet Conventions</h1>
-            <img src="img/business_test.jpg" class="img-fluid" alt="Event Image">
-            <p class="col-md-9 mt-2">Join us for an exciting day of networking, inspiration, and professional growth at the Big Meet Conventions! This event is a unique opportunity to connect with industry leaders, explore new career paths, and gain valuable insights into the latest trends and innovations across various fields. Whether you're a student, recent graduate, or young professional, you'll have the chance to engage with top employers, attend informative sessions, and build lasting connections. Don’t miss out on this incredible platform to take your career to the next level and meet the people shaping the future of work. See you at the Big Meet!</p>
-            <p><strong>Event Type:</strong> Networking</p>
-            <p><strong>Time:</strong> 10:00 AM - 5:00 PM</p>
-            <p><strong>Location:</strong> 123 Hoodville Avenue, Kunal's Dungeon, Rajasthan, India</p>
-            <div class="contrainer event-creator-container">
-              <h2>Event Creator</h2>
-              <div class="event-creator d-flex align-items-left gap-4">
-                <img src="img/big-meet-logo.png" alt="Avatar" class="rounded-circle-view">
-                <div class="event-creator-details">
-                  <p><strong>Company:</strong> Big Meet</p>
-                  <p><strong>Name:</strong> Kunal Sharma</p>
-                  <p><strong>Subscribers:</strong> 8.2k</p>
-                </div>
-                <div class="event-creator-actions d-flex gap-2 ms-5">
-                  <button type="button" class="btn btn-outline-primary-contact">Contact</button>
-                  <button type="button" class="btn btn-primary-subscribe">Subscribe</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-          <!-- Buy Tickets Container -->
-          <div class="col-md-4 buy-tickets">
-            <h2>Tickets</h2>
-            <div class="ticket-card mb-3">
-              <h4>General Acesss</h4>
-              <p>Price: $50</p>
-              <p>Includes access to all sessions and networking events.</p>
-            </div>
-          <div class="ticket-card mb-3">
-            <h4>Deluxe Acsess</h4>
-            <p>Price: $50</p>
-            <p>Includes access to all sessions and networking events + Meet with Industry professionals</p>
-          </div>
-          <div class="ticket-card mb-3">
-            <h4>V.I.P Access</h4>
-            <p>Price: $50</p>
-            <p>Includes access to all sessions and networking events + Meet with Industry professionals</p>
-          </div>
-          <h3 class="mt-5"><strong>BUY TICKETS</strong></h3>
-          <div>
-            <form class="mt-3">
-              <div class="mb-3">
-                <label for="ticketType" class="form-label">Ticket Type</label>
-                <select id="ticketType" class="form-select">
-                  <option value="general">General Admission</option>
-                  <option value="vip">VIP</option>
-                </select>
-              </div>
-              <div class="mb-3">
-                <label for="ticketCount" class="form-label">Number of Tickets</label>
-                <input type="number" id="ticketCount" class="form-control" min="1" value="1">
-              </div>
-              <button type="submit" class="btn btn-primary">Book Now</button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- COMMENTS SECTION -->
-      <div class="container mt-4">
-        <div class="row">
-          <div class="col-md-8 comment-container">
-            <h4>Comments</h4>
-            <div class="comment-box d-flex align-items-start gap-3">
-              <img src="img/sircalebthe3rd.png" alt="Avatar" class="rounded-circle-comment">
-              <div class="comment-details">
-                <p><strong>Kunal Sharma</strong></p>
-                <p>This event is going to be amazing! Can't wait to meet everyone.</p>
-              </div>
-            </div>
-            <div class="comment-box d-flex align-items-start gap-3">
-              <img src="img/kunalprasad.png" alt="Avatar" class="rounded-circle-comment">
-              <div class="comment-details">
-                <p><strong>Jacquivious Delorious</strong></p>
-                <p>Looking forward to it!</p>
-              </div>
-            </div>
-            <div class="comment-box d-flex align-items-start gap-3">
-              <img src="img/yesking.jpg" alt="Avatar" class="rounded-circle-comment">
-              <div class="comment-details">
-                <p><strong>Mike Coxsmall</strong></p>
-                <p>Excited to learn and network!</p>
-              </div>
-            </div>
-            <div class="comment-box d-flex align-items-start gap-3">
-              <img src="img/ambatukam.jpg" alt="Avatar" class="rounded-circle-comment">
-              <div class="comment-details">
-                <p><strong>Ben Dover</strong></p>
-                <p>Excited to learn and network!</p>
-              </div>
-            </div>
-          </div>
-        <!-- POST COMMENT SECTION -->
-       <div class="container mt-4">
-        <div class="row">
-          <div class="col-md-8 makecomment-container">
-            <div class="comment-form">
-              <h4>Post a Comment</h4>
-              <form>
-                  <div class="mb-3">
-                      <textarea class="form-control" rows="3" placeholder="Write your comment here"></textarea>
+          <div class="col-lg-8 col-md-12">
+            <div class="p-4 shadow-sm bg-white rounded">
+              <h1 class="mb-3"><strong>Big Meet Conventions</strong></h1>
+              <img src="img/business_test.jpg" class="img-fluid rounded mb-3" alt="Event Image">
+              <p class="mb-3">
+                Join us for an exciting day of networking, inspiration, and professional growth at the Big Meet Conventions!
+                This event is a unique opportunity to connect with industry leaders, explore new career paths, and gain
+                valuable insights into the latest trends and innovations. Whether you're a student, graduate, or young
+                professional, engage with top employers, attend sessions, and build lasting connections.
+              </p>
+              <p><strong>Event Type:</strong> Networking</p>
+              <p><strong>Time:</strong> 10:00 AM - 5:00 PM</p>
+              <p><strong>Location:</strong> 123 Hoodville Avenue, Kunal's Dungeon, Rajasthan, India</p>
+      
+              <div class="mt-4">
+                <h2><strong>Event Creator</strong></h2>
+                <div class="d-flex flex-wrap align-items-center gap-3 mt-3">
+                  <img src="img/big-meet-logo.png" alt="Avatar" class="rounded-circle" width="80" height="80">
+                  <div>
+                    <p><strong>Company:</strong> Big Meet</p>
+                    <p><strong>Name:</strong> Kunal Sharma</p>
+                    <p><strong>Subscribers:</strong> 8.2k</p>
                   </div>
-                  <button type="submit" class="btn btn-primary">Post Comment</button>
+                  <div class="ms-auto d-flex gap-2">
+                    <button type="button" class="btn btn-primary">Contact</button>
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Buy Tickets Container -->
+          <div class="col-lg-4 col-md-12">
+            <div class="p-4 shadow-sm bg-white rounded">
+              <h2 class="mb-4"><strong>Tickets</strong></h2>
+              <div class="ticket-card mb-4">
+                <h5>General Access</h5>
+                <p>Price: $50</p>
+                <p>Includes access to all sessions and networking events.</p>
+              </div>
+              <div class="ticket-card mb-4">
+                <h5>Deluxe Access</h5>
+                <p>Price: $80</p>
+                <p>Access to sessions + Meet industry professionals.</p>
+              </div>
+              <div class="ticket-card mb-4">
+                <h5>V.I.P Access</h5>
+                <p>Price: $120</p>
+                <p>All-access + private networking lounge + swag bag.</p>
+              </div>
+      
+              <h3 class="mt-5 mb-3"><strong>Buy Tickets</strong></h3>
+              <form>
+                <div class="mb-3">
+                  <label for="ticketType" class="form-label">Ticket Type</label>
+                  <select id="ticketType" class="form-select">
+                    <option value="general">General Access</option>
+                    <option value="vip">Deluxe Access</option>
+                    <option value="vip">V.I.P Access</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="ticketCount" class="form-label">Number of Tickets</label>
+                  <input type="number" id="ticketCount" class="form-control" min="1" value="1">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Book Now</button>
               </form>
             </div>
           </div>
         </div>
-       </div>
+      </div>
+      
+      <!-- Comments Section -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-8 col-md-12">
+            <div class="p-4 shadow-sm bg-white rounded mb-4">
+              <h4 class="mb-4">Comments</h4>
+              <!-- Comment List -->
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <img src="img/sircalebthe3rd.png" alt="Avatar" class="rounded-circle" width="50" height="50">
+                <div>
+                  <p class="mb-1"><strong>Kunal Sharma</strong></p>
+                  <p class="mb-0">This event is going to be amazing! Can't wait to meet everyone.</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <img src="img/kunalprasad.png" alt="Avatar" class="rounded-circle" width="50" height="50">
+                <div>
+                  <p class="mb-1"><strong>Jacquivious Delorious</strong></p>
+                  <p class="mb-0">Looking forward to it!</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <img src="img/yesking.jpg" alt="Avatar" class="rounded-circle" width="50" height="50">
+                <div>
+                  <p class="mb-1"><strong>Mike Coxsmall</strong></p>
+                  <p class="mb-0">Excited to learn and network!</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <img src="img/ambatukam.jpg" alt="Avatar" class="rounded-circle" width="50" height="50">
+                <div>
+                  <p class="mb-1"><strong>Ben Dover</strong></p>
+                  <p class="mb-0">Excited to learn and network!</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Post Comment Section -->
+            <div class="p-4 shadow-sm bg-white rounded">
+              <h4 class="mb-3">Post a Comment</h4>
+              <form>
+                <label for="username" class="form-label">Username</label>
+                <input type="username" id="username" class="form-control username-comment" aria-describedby="usernameBlock">
+                <div class="mb-3">
+                  <textarea class="form-control mt-3" rows="3" placeholder="Write your comment here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Post Comment</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     </main>
