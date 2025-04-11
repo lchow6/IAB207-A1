@@ -164,7 +164,7 @@ main {
 /* Event Form Container */
 .create-event-container {
   background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #000000;
   border-radius: 8px;
 }
 
@@ -208,6 +208,51 @@ main {
 
 
 /* VIEW EVENT SECTION */
+.rounded-circle-view {
+  width: 100px;                   /* Set the width */
+  height: 100px;                  /* Set the height */
+  border-radius: 50%;            /* Makes it circular */
+  border: 5px solid #00e5ff;     /* Adds a blue outline */
+  object-fit: contain;             /* Ensures the image covers the circle nicely */
+}
 
 
+.event-creator-details {
+  display: flex; /* Enables Flexbox for the text container */
+  flex-direction: column; /* Stacks the text vertically */
+  gap: 1px; /* Space between the text elements */
+}
+
+.btn-outline-primary-contact {
+  background-color: #ffffff; /* White background */
+  border: 2px solid #4b0082; /* Adds a proper border with indigo color */
+  color: #4b0082; /* Indigo text color */
+  font-weight: bold; /* Makes the text bold */
+  padding: 10px 20px; /* Adds padding for better spacing */
+  border-radius: 6px; /* Rounds the corners */
+  transition: all 0.3s ease; /* Adds a smooth hover effect */
+}
+
+.btn-primary-subscribe{
+  background-color: #4b0082; /* White background */
+  border: 2px solid #4b0082; /* Adds a proper border with indigo color */
+  color: #ffffff; /* Indigo text color */
+  font-weight: bold; /* Makes the text bold */
+  padding: 10px 15px; /* Adds padding for better spacing */
+  border-radius: 6px; /* Rounds the corners */
+  transition: all 0.3s ease; /* Adds a smooth hover effect */
+}
+
+.event-creator-actions {
+  display: flex; /* Enables Flexbox */
+  gap: 10px; /* Adds spacing between the buttons */
+  align-items: center; /* Ensures buttons are vertically centered */
+}
+
+.rounded-circle-comment {
+  width: 50px;                   /* Set the width */
+  height: 50px;                  /* Set the height */
+  border-radius: 50%;            /* Makes it circular */
+  object-fit: fill;             /* Ensures the image covers the circle nicely */
+}
 
