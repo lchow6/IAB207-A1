@@ -8,51 +8,53 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/style/style.css"> 
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg shadow-lg p-3 border-bottom border-white" style="background-color: #17a5d5;">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white fw-bold" href="#">
-            <img src="img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-            CorporateEvents
-          </a>
-          
-          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Others
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="eventhistory.html">Booking History</a></li>
-                </ul>
-              </li>
+  <nav class="navbar navbar-expand-lg shadow-lg p-3 border-bottom border-white" style="background-color: #17a5d5;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bold" href="index.html">
+        <img src="img/logo.png" alt="Logo.png" width="40" height="40" class="d-inline-block align-text-top">
+        CorporateEvents
+      </a>
+      
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Others
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="eventhistory.html">Booking History</a></li>
             </ul>
-    
-            <div class="d-flex">
-              <a href="createevent.html">
-                <button type="button" class="btn btn-outline-light me-2">Create Event</button>
-              </a>
-              <button type="button" class="btn btn-outline-light me-2">Login</button>
-              <button type="button" class="btn btn-primary">Sign Up</button>
-            </div>
-          </div>
+          </li>
+        </ul>
+
+        <div class="d-flex">
+          <a href="createevent.html">
+            <button type="button" class="btn btn-outline-light me-2 btn-navcreateevent">Create Event</button>
+          </a>
+          <button type="button" class="btn btn-outline-light me-2 btn-login">Login</button>
+          <button type="button" class="btn btn-primary">Sign Up</button>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
 </header>
 
 
@@ -66,7 +68,7 @@
           <div class="col-lg-8 col-md-12">
             <div class="p-4 shadow-sm bg-white rounded">
               <h1 class="mb-3"><strong>Big Meet Conventions</strong></h1>
-              <img src="img/business_test.jpg" class="img-fluid rounded mb-3" alt="Event Image">
+              <img src="img/business_test.jpg" class="img-fluid rounded mb-3" alt="business_test.jpg">
               <p class="mb-3">
                 Join us for an exciting day of networking, inspiration, and professional growth at the Big Meet Conventions!
                 This event is a unique opportunity to connect with industry leaders, explore new career paths, and gain
@@ -188,8 +190,6 @@
           </div>
         </div>
       </div>
-
-
     </main>
 
   </body>

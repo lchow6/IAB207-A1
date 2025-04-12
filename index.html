@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="../n12065765/static/style/style.css">
 </head>
 <header>
-  <nav class="navbar navbar-expand-lg shadow-lg p-3 border-bottom border-white" style="background-color: #17a5d5;">
+  <nav class="navbar navbar-expand-lg shadow-lg p-2 border-bottom border-white" style="background-color: #17a5d5;">
     <div class="container-fluid">
-      <a class="navbar-brand text-white fw-bold" href="#">
-        <img src="img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+      <a class="navbar-brand text-white fw-bold d-flex align-items-center" href="index.html">
+        <img src="img/logo.png" alt="Logo" width="40" height="40" class="me-2">
         CorporateEvents
       </a>
       
@@ -43,9 +43,9 @@
 
         <div class="d-flex">
           <a href="createevent.html">
-            <button type="button" class="btn btn-outline-light me-2">Create Event</button>
+            <button type="button" class="btn btn-outline-light me-2 btn-navcreateevent">Create Event</button>
           </a>
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-outline-light me-2 btn-login">Login</button>
           <button type="button" class="btn btn-primary">Sign Up</button>
         </div>
       </div>
@@ -60,7 +60,7 @@
     <div class="hero-section">
       <div class="container d-flex justify-content-center align-items-center h-100">
         <div class="text-center text-white">
-          <h1 class="display-1 fw-bold">Welcome to Corporate Events</h1>
+          <h1 class="display-1 fw-bold">Welcome to CorporateEvents</h1>
           <p class="lead">Plan, organize, and elevate your corporate events with ease. Let us help you create unforgettable experiences for your team and clients.</p>
         </div>
       </div>
@@ -70,13 +70,13 @@
     <div id="carouselExample" class="carousel slide mx-auto my-2" style="max-width: 80%;">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./img/handsomeblack.png" class="d-block w-100" alt="...">
+          <img src="img/carousel-img-1.jpg" class="d-block w-100" alt="carousel-img-1">
         </div>
         <div class="carousel-item">
-          <img src="./img/handsomeblack.png" class="d-block w-100" alt="...">
+          <img src="img/carousel-img-2.jpg" class="d-block w-100" alt="carousel-img-2">
         </div>
         <div class="carousel-item">
-          <img src="./img/handsomeblack.png" class="d-block w-100" alt="...">
+          <img src="img/carousel-img-3.jpg" class="d-block w-100" alt="carousel-img-3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -135,7 +135,7 @@
         
         <div class="col">
           <div class="card shadow-sm border-0">
-            <img src="img/business_test.jpg" class="card-img-top" alt="Event Image">
+            <img src="img/business_test.jpg" class="card-img-top" alt="business_test.jpg">
             <div class="card-body text-start">
               <h5 class="card-title fw-bold">Big Meet Conventions</h5>
               <p class="card-text">Join us for an evening of meeting new industry professionals.</p>
@@ -143,8 +143,7 @@
               <p class="card-text">
                 <strong>Status:</strong> <span class="badge bg-success">OPEN</span>
               </p>
-              <!-- Button for other sheningans idk -->
-              <button type="button" class="btn btn-primary" href="/createevent.html">Get Tickets</button>
+              <button type="button" class="btn btn-primary">Get Tickets</button>
             </div>
           </div>
         </div>
@@ -152,9 +151,9 @@
     
         <div class="col">
           <div class="card shadow-sm border-0">
-            <img src="img/business_test.jpg" class="card-img-top" alt="Event Image">
+            <img src="img/xpeng-car-img.jpg" class="card-img-top" alt="xpeng-car-img.jpg">
             <div class="card-body text-start">
-              <h5 class="card-title fw-bold">Big Meet Conventions</h5>
+              <h5 class="card-title fw-bold">XPENG Special Seminar</h5>
               <p class="card-text">Join us for an evening of meeting new industry professionals.</p>
               <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 11:00 AM</p>
               <p class="card-text">
@@ -167,30 +166,30 @@
     
         <div class="col">
           <div class="card shadow-sm border-0">
-            <img src="img/business_test.jpg" class="card-img-top" alt="Event Image">
+            <img src="img/ehealth-innovation-img.jpg" class="card-img-top" alt="ehealth-innovation-img.jpg">
             <div class="card-body text-start">
-              <h5 class="card-title fw-bold">Business Conventions</h5>
-              <p class="card-text">Join us for an evening of meeting new industry professionals.</p>
+              <h5 class="card-title fw-bold">eHealth Seminar</h5>
+              <p class="card-text">Join us for an evening for the future of eHealth</p>
               <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 11:00 AM</p>
               <p class="card-text">
                 <strong>Status:</strong> <span class="badge bg-secondary">INACTIVE</span>
               </p>
-              <button type="button" class="btn btn-primary">Get Tickets</button>
+              <button type="button" class="btn btn-primary" disabled>Get Tickets</button>
             </div>
           </div>
         </div>
     
         <div class="col">
           <div class="card shadow-sm border-0">
-            <img src="img/business_test.jpg" class="card-img-top" alt="Event Image">
+            <img src="img/taylor-intelligence-image.jpg" class="card-img-top" alt="taylor-intelligence-image.jpg">
             <div class="card-body text-start">
-              <h5 class="card-title fw-bold">Event Title</h5>
-              <p class="card-text">Join us for an evening of meeting new industry professionals.</p>
+              <h5 class="card-title fw-bold">Taylor Intelligence Seminar</h5>
+              <p class="card-text">Join in the future of technologies with Taylor Intelligence</p>
               <p class="card-text"><strong>Date & Time:</strong> April 2, 2025, 11:00 AM</p>
               <p class="card-text">
                 <strong>Status:</strong> <span class="badge bg-warning">SOLD OUT</span>
               </p>
-              <button type="button" class="btn btn-primary">Get Tickets</button>
+              <button type="button" class="btn btn-primary" disabled>Get Tickets</button>
             </div>
           </div>
         </div>
@@ -202,13 +201,13 @@
           <div class="d-flex align-items-center gap-3 mb-4">
             <h2 class="text-left fw-bold mb-0">I want to see Event Type:</h2>
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="btn btn-secondary dropdown-toggle selecttypedrop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Networking
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Conference</a></li>
-                <li><a class="dropdown-item" href="#">Seminar</a></li>
-                <li><a class="dropdown-item" href="#">Board Meetings</a></li>
+                <li><a class="dropdown-item dropdown-menu-homepage">Conference</a></li>
+                <li><a class="dropdown-item dropdown-menu-homepage">Seminar</a></li>
+                <li><a class="dropdown-item dropdown-menu-homepage">Board Meetings</a></li>
               </ul>
             </div>
           </div>
@@ -217,7 +216,7 @@
 
             <div class="col">
               <div class="card shadow-sm border-0">
-                <img src="img/business_test.jpg" class="card-img-top" alt="Event Image">
+                <img src="img/business_test.jpg" class="card-img-top" alt="business_test.jpg">
                 <div class="card-body text-start">
                   <h5 class="card-title fw-bold">Big Meet Conventions</h5>
                   <p class="card-text">Join us for an evening of meeting new industry professionals.</p>
@@ -225,8 +224,9 @@
                   <p class="card-text">
                     <strong>Status:</strong> <span class="badge bg-success">OPEN</span>
                   </p>
-                  <!-- Button -->
-                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                  <a href="viewevent.html">
+                    <button type="button" class="btn btn-primary">Get Tickets</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -234,7 +234,7 @@
         
             <div class="col">
               <div class="card shadow-sm border-0">
-                <img src="img/dxcnetowrkingimg.jpg" class="card-img-top" alt="Event Image">
+                <img src="img/dxcnetowrkingimg.jpg" class="card-img-top" alt="dxcnetowrkingimg.jpg">
                 <div class="card-body text-start">
                   <h5 class="card-title fw-bold">DXC Tech Networking</h5>
                   <p class="card-text">Join us for for a advanced netowrking with high-end career profeesionals.</p>
@@ -242,14 +242,16 @@
                   <p class="card-text">
                     <strong>Status:</strong> <span class="badge bg-success">OPEN</span>
                   </p>
-                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                  <a href="viewevent.html">
+                    <button type="button" class="btn btn-primary">Get Tickets</button>
+                  </a>
                 </div>
               </div>
             </div>
         
             <div class="col">
               <div class="card shadow-sm border-0">
-                <img src="img/ziasnblou.jpg" class="card-img-top" alt="Event Image">
+                <img src="img/ziasnblou.jpg" class="card-img-top" alt="ziasnblou.jpg">
                 <div class="card-body text-start">
                   <h5 class="card-title fw-bold">Hood Research Department</h5>
                   <p class="card-text">Expand your knowledge and Netowrk with the socrates and plato of today.</p>
@@ -257,14 +259,16 @@
                   <p class="card-text">
                     <strong>Status:</strong> <span class="badge bg-secondary">INACTIVE</span>
                   </p>
-                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                  <a href="viewevent.html">
+                    <button type="button" class="btn btn-primary">Get Tickets</button>
+                  </a>
                 </div>
               </div>
             </div>
         
             <div class="col">
               <div class="card shadow-sm border-0">
-                <img src="img/azuresky.png" class="card-img-top" alt="Event Image">
+                <img src="img/azuresky.png" class="card-img-top" alt="azuresky.png">
                 <div class="card-body text-start">
                   <h5 class="card-title fw-bold">Azure Sky Networking Event</h5>
                   <p class="card-text">Connect with industry leaders at Azure Skys networking this afternoon</p>
@@ -272,7 +276,9 @@
                   <p class="card-text">
                     <strong>Status:</strong> <span class="badge bg-warning">SOLD OUT</span>
                   </p>
-                  <button type="button" class="btn btn-primary">Get Tickets</button>
+                  <a>
+                    <button type="button" class="btn btn-primary" disabled >Get Tickets</button>
+                  </a>
                 </div>
               </div>
             </div>
